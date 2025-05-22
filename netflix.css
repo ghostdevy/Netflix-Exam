@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* .......header section...... */
+
+
+.las {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40em;
+}
+
+.logo {
+    width: 200px;
+}l
+
+.log a {
+     padding: 12px 20px;
+     background-color:#c11119;
+     border-radius: 5px;
+     color: whitesmoke;
+     text-decoration: none;
+}
+
+.bgi {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./images/background-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+
+}
+
+.herotxt {
+    padding: 15px 18px;
+     margin: 100px auto;
+    
+}
+
+.herotxt h1 {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.txtp {
+     text-align: center;
+     color: white;
+     font-size: 1.2em;
+     padding-bottom: 16px;
+}
+
+.herotxt p {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.mail input {
+    width:400px;
+    height: 6vh;
+    background-color: transparent;
+    border:2px solid white;
+}
+
+.mail a {
+     padding: 12px 20px;
+     background-color:#c11119;
+     border-radius: 5px;
+     color: whitesmoke;
+     text-decoration: none;
+}
+
+.mail{
+     text-align: center;
+     margin: 100px auto;
+}
+
+
+.txt{
+    color: white;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.main h2 {
+    font-family: 2em;
+    color: #bfb4b5;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.logo2 {
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 10px;  
+}
+
+.logo2:hover {
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+
+}
+
+ body {
+    background-color: black;
+}
+
+/* ..........header media query........... */
+
+@media(max-width:934px){
+    .las{
+        gap: 10em;
+        padding: 6px 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+@media(max-width:598px) {
+    .herotxt h1{
+    font-size: 1.6em;
+    font-weight: 400;
+    padding-bottom: 5px;
+    }
+
+    .herotxt p {
+         font-size: 0.5em;
+    }
+
+
+    .mail input {
+    width:200px;
+    height: 5vh;
+    }
+
+    .mail a {
+        padding: 3px 8px;
+    }
+
+    .log a{
+        padding: 6px 10px;
+    }
+
+    .mail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2em;
+    }
+
+    
+}
+
+@media(max-width:488px) {
+     .las{
+        gap: 5em;
+        padding: 3px 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .logo {
+        width: 100px;
+    }
+  
+
+}
+
+  
+
+/* .....section3..... */
+
+.s3 {
+    width: 80%;
+    margin: auto;
+    color: #bfb4b5; 
+    margin-bottom: 20px; 
+}
+
+
+
+.row {
+    width: 80%;
+    gap: 2em;
+    margin: auto;
+
+}
+
+.card-body {
+    height: 270px;
+   background-color:#23294a;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+
+.card {
+    border: none;
+    margin-bottom: 50px;
+}
+
+
+/* ..........section 4.......... */
+
+.accordion {
+    width: 80%;
+    margin: auto;
+}
+
+.accordh {
+    width: 80%;
+    margin: auto;
+    color: #bfb4b5;
+    margin-bottom: 20px;  
+}
+
+.accordion-item {
+    background-color: #414141;
+    color: white;
+}
+
+.accordion-button {
+    background-color: #414141;
+    color: white;
+    
+}
+
+
+/* .......footer....... */
+
+
+.footerh {
+    color: white;
+    margin: 100px auto;
+    text-align: center;
+    width: 80%;
+}
+
+.footerh input {
+    width:600px;
+    height: 6vh;
+    background-color: transparent;
+    border:2px solid white;
+}
+
+.footerh a {
+     padding: 12px 20px;
+     background-color:#ea0511;
+     border-radius: 5px;
+     color: whitesmoke;
+     text-decoration: none;
+     font-size: 1.4em;
+}
+
+.footerh h5{
+    margin-bottom: 20px;
+}
+
+
+.infos {
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 30px;
+}
+.beef{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.footie {
+    width: 80%;
+    margin: auto;
+    font-size: 1.4em;
+    margin-bottom: 16px;
+}
+
+.footie select {
+    background-color: black;
+    color: white;
+}
+
+.lastie p {
+    width:80% ;
+    color: white;
+    margin: auto
+}
+
+/* .......footer media query....... */
+
+
+@media(max-width:969px) {
+    .footerh {
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerh input {
+        width: 300px;
+    }
+
+    .infos {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+
+
+
